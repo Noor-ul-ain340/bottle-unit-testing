@@ -98,6 +98,8 @@ Check the order with: `pytest --collect-only -q`.
 - `Router` treats `/hello/` and `/hello` as different paths (404).
 - `SimpleTemplate("")` raises `TemplateError` (empty source is "no template").
 
+## Demo Video
+- Download/Watch Video: [Project Demo Video](./bottle-unit-testing%20-%20Visual%20Studio%20Code%202026-10-23%2016-11-53.mp4)
 ## 6. Git workflow
 
 Each member commits their own files from their own account, e.g.
