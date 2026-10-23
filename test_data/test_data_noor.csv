@@ -1,0 +1,9 @@
+test_id,header_name,header_value,lookup_name,expected_value,expected_key_in_dict
+CSV-N01,content-type,text/html,CONTENT-TYPE,text/html,Content-Type
+CSV-N02,Content-Type,application/json,content-type,application/json,Content-Type
+CSV-N03,X_Custom_Header,abc,x-custom-header,abc,X-Custom-Header
+CSV-N04,accept,text/plain,Accept,text/plain,Accept
+CSV-N05,X-Empty,,x-empty,,X-Empty
+CSV-N06,  spaced  ,value,SPACED,value,Spaced
+CSV-N07,user-agent,Mozilla/5.0,User-Agent,Mozilla/5.0,User-Agent
+CSV-N08,CACHE-CONTROL,no-cache,cache-control,no-cache,Cache-Control

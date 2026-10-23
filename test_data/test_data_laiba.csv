@@ -1,0 +1,12 @@
+test_id,input_type,status_input,expected_outcome,expected_code,expected_status_line
+CSV-L01,int,100,ok,100,100 Continue
+CSV-L02,int,200,ok,200,200 OK
+CSV-L03,int,404,ok,404,404 Not Found
+CSV-L04,int,500,ok,500,500 Internal Server Error
+CSV-L05,int,999,ok,999,999 Unknown
+CSV-L06,int,99,error,,
+CSV-L07,int,1000,error,,
+CSV-L08,int,-1,error,,
+CSV-L09,str,404 Not Found,ok,404,404 Not Found
+CSV-L10,str,418 Brain not found,ok,418,418 Brain not found
+CSV-L11,str,404,error,,
